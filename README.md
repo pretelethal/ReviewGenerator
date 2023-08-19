@@ -5,7 +5,9 @@ generates random reviews based from training data
 ## Requirements
 
 .net 6.0
-node.js
+
+node.json
+
 npm
 
 ## npm
@@ -102,7 +104,7 @@ generate and run the container
 docker run -d -p {desired_host_port}:80 --env ASPNETCORE_ENVIRONMENT="Docker" --mount type=bind,source=c:\host\file\path\,target=/target/mount/path --name {container-name} {image-name}
 ```
 	
-### Notes
+## Notes
 
 dockerfile in this project configured for linux target. ran from windows using WSL 2.0.
 	
