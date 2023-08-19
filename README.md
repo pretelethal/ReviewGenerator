@@ -1,4 +1,3 @@
-
 # Review Generator
 generates random reviews based from training data
 
@@ -6,25 +5,15 @@ generates random reviews based from training data
 
 .net 6.0
 
-node.json
+node.js
 
 npm
 
-## npm
+## Recommended
 
-```
-npm install
-```
-if required
+Visual Studio 2022 (or equivalent IDE for development)
 
-## Visual Studio 2022
-
-recommended to launch application via Visual Studio or other compatible IDE for debugging
-
-```
-dotnet dev-certs https --trust
-```
-**may need to be run if VS2022 requires it for this project
+## Project Settings
 
 ### appsettings.json
 
@@ -73,6 +62,11 @@ needs to be altered to target the location of training data we want to mount to 
 ```
 
 ## dotnet
+
+**may need to be run if VS2022 requires it for this project
+```
+dotnet dev-certs https --trust
+```
 
 test the project	
 ```
